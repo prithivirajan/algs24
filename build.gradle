@@ -17,6 +17,10 @@ repositories {
     jcenter()
 }
 
+task wrapper(type: Wrapper){
+    gradleVersion = '3.5'
+}
+
 dependencies {
     // This dependency is exported to consumers, that is to say found on their compile classpath.
 
